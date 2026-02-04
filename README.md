@@ -7,7 +7,7 @@ $$F(x) = \sum_{y \in X} \text{dtw}(x,y)^2.$$
 
 # Features
 The package provides
-- subgradient methods for minimizing the Fréchet function
+- modular subgradient methods for minimizing the Fréchet function
 - a collection of optimizers, such as SGD, Adam, AdaDelta, RMSProp and a Newton method
 - different step size schedules
 - different termination criteria
