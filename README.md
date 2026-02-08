@@ -13,7 +13,9 @@ $$F(x) = \sum_{y \in X} \text{dtw}(x,y)^2.$$
 tsmean computes the Fréchet mean of a time series dataset using various optimization algorithms. A Fréchet mean under DTW averages the time series while accounting for optimal temporal alignments. A simple example of a Fréchet mean under DTW looks like this:
 
 
-![tsmean Visualization](resources/tsmean.png)
+<p align="center">
+  <img src="resources/tsmean.png" alt="tsmean Visualization">
+</p>
 
 
 
