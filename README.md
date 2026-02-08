@@ -34,16 +34,24 @@ tsmean computes the Fréchet mean of a time series dataset using various optimiz
 
 ## Installation
 
-Clone the repository and install the dependencies:
-
+Install from GitHub:
 ```bash
-git clone https://github.com/your-username/tsmean.git
+pip install git+https://github.com/d-schultz/tsmean.git
+```
+
+Or clone and install from source:
+```bash
+git clone https://github.com/d-schultz/tsmean.git
 cd tsmean
 pip install .
 ```
 
-For development:
+## Development
+
+For development, install in editable mode with dev dependencies:
 ```bash
+git clone https://github.com/d-schultz/tsmean.git
+cd tsmean
 pip install -e ".[dev]"
 ```
 
