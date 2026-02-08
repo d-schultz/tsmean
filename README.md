@@ -6,6 +6,12 @@
 
 **tsmean** is a high-performance Python library for calculating the Fréchet mean (averaging) of time series data under Dynamic Time Warping (DTW). It implements state-of-the-art stochastic subgradient methods and classic algorithms like DBA, all optimized with Numba for maximum speed.
 
+Time series averaging under DTW is formulated as an optimization problem. A (Fréchet) mean of a time series dataset $X$ is any time series $x$ that minimizes the Fréchet function
+
+$$F(x) = \sum_{y \in X} \text{dtw}(x,y)^2.$$
+
+tsmean computes the Fréchet mean of a time series dataset using various optimization algorithms. A Fréchet mean under DTW averages the time series while accounting for optimal temporal alignments. A simple example of a Fréchet mean under DTW looks like this:
+
 
 ![tsmean Visualization](resources/tsmean.png)
 
